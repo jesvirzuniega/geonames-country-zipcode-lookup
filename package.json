@@ -1,6 +1,6 @@
 {
   "name": "geonames-country-zipcode-lookup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lookup places using country code and zip code",
   "main": "index.js",
   "scripts": {
