@@ -17,7 +17,9 @@ module.exports = {
      */
     lookup: (countryCode, match, key='postal_code') => {
         const data = require(`./data/${countryCode.toUpperCase()}.json`)
+        if (!match) return data
+        
         match = match instanceof RegExp ? regex : new RegExp(`^${match}`)
-        console.log(data.filter(c => c[key].match(match)))
+        return data.filter(c => c[key].match(match))
     }
 }
