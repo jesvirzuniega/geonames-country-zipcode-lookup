@@ -1,0 +1,11 @@
+{
+  "name": "geonames-country-zipcode-lookup",
+  "version": "1.0.0",
+  "description": "Lookup places using country code and zip code",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Jesvir Zuniega",
+  "license": "ISC"
+}
